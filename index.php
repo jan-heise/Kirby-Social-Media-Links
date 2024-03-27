@@ -1,6 +1,6 @@
 <?php
 
-Kirby::plugin('heise.rocks/kirby-social-media-links', [
+Kirby::plugin('janheise/kirby-social-media-links', [
     'blueprints' => [
         'social_media_entries' => __DIR__ . '/blueprints/social_media_entries.yml',
         'social_media_links' => __DIR__ . '/blueprints/social_media_links.yml',
