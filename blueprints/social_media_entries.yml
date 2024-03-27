@@ -1,0 +1,7 @@
+label: Social Media
+icon: share
+sections:
+  socialMediaSettings:
+    type: fields
+    fields:
+      socialMediaLinks: social_media_links

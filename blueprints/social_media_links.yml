@@ -1,0 +1,62 @@
+label:
+  en: "Social media links"
+  de: "Social Media Links"
+type: structure
+fields:
+  platform:
+    type: select
+    label:
+      en: Platform
+      de: Plattform
+    options:
+      About_Me: About Me
+      Discord: Discord
+      Discourse: Discourse
+      Facebook_Gaming: Facebook Gaming
+      Facebook_Live: Facebook Live
+      Facebook: Facebook
+      GitHub: GitHub
+      GitLab: GitLab
+      Google_Maps: Google Maps
+      Google_Play: Google Play
+      Instagram: Instagram
+      LinkedIn: LinkedIn
+      Mastodon: Mastodon
+      Meta: Meta
+      Pinterest: Pinterest
+      Signal: Signal
+      Slack: Slack
+      Telegram: Telegram
+      TikTok: TikTok
+      Twitch: Twitch
+      Twitter: Twitter
+      WhatsApp: WhatsApp
+      X: X
+      Xing: Xing
+      YouTube_Gaming: YouTube Gaming
+      YouTube_Music: YouTube Music
+      YouTube_Shorts: YouTube Shorts
+      YouTube: YouTube
+  url:
+    label:
+      en: Link
+      de: Link
+    type: url
+    required: true
+  target:
+    label:
+      en: Target
+      de: Target
+    type: toggles
+    options:
+      - value: self
+        text: _self
+      - value: blank
+        text: _blank
+      - value: parent
+        text: _parent
+      - value: top
+        text: _top
+    default: blank
+    reset: false
+    required: true
