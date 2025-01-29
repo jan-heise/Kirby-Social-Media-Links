@@ -1,5 +1,7 @@
 # Kirby social media links
 
+![banner](https://github.com/jan-heise/Kirby-Social-Media-Links/assets/17968672/aee64b66-11db-4390-a273-5271fc8e3d10)
+
 ## Setup
 
 Add the `socialMediaTab: social_media_entries` tab to your `site.yml` blueprint.
@@ -64,3 +66,6 @@ person:
 | `items`            | `$site->socialMediaLinks()->toStructure()` _(Kirby Structure)_ | Social Media Entries to be used. Has to be resolved to Kirby Structure via `toStructure()`. Defaults to site-wide definition of social media entries when left empty. |
 
 ---
+
+![screenshot](https://github.com/jan-heise/Kirby-Social-Media-Links/assets/17968672/8c229a42-3fa8-4da4-8cf9-4414700cb13b)
+
