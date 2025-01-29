@@ -7,8 +7,6 @@ $linkClasses = (isset($linkClasses)) ? ' class="' . $linkClasses . '"' : '';
 $iconClasses = (isset($iconClasses)) ? $iconClasses : '';
 $listAttributes = (isset($listAttributes)) ? $listAttributes : '';
 $itemAttributes = (isset($itemAttributes)) ? $itemAttributes : '';
-$linkAttributes = (isset($linkAttributes)) ? $linkAttributes : '';
-$iconAttributes = (isset($iconAttributes)) ? $iconAttributes : '';
 
 $items = (isset($items)) ? $items : $site->socialMediaLinks()->toStructure();
 
@@ -17,7 +15,7 @@ $items = (isset($items)) ? $items : $site->socialMediaLinks()->toStructure();
     <ul class="<?= $containerClasses ?>" <?= $containerId ?> <?= $listAttributes ?>>
         <?php foreach ($items as $item) : ?>
             <li class="<?= $itemClasses ?>" <?= $itemAttributes ?>>
-                <a href="<?= $item->url() ?>" target="<?= $item->target()->toString() ?>" <?= $linkClasses ?> <?= $linkAttributes ?>>
+                <a href="<?= $item->url() ?>" target="<?= $item->target()->toString() ?>" <?= $linkClasses ?> aria-label="<?= $item->platform()->toString() ?> Link">
                     <?php snippet('social_media_icon', ['platform' => $item->platform()->toString(), 'classes' => $iconClasses, 'attributes' => $iconAttributes]) ?>
                 </a>
             </li>
