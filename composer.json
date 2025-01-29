@@ -3,7 +3,7 @@
   "description": "Social media integration for kirby.",
   "type": "kirby-plugin",
   "license": "MIT",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "authors": [
     {
       "name": "Jan Heise",
