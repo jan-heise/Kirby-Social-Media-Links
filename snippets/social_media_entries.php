@@ -16,7 +16,7 @@ $items = (isset($items)) ? $items : $site->socialMediaLinks()->toStructure();
         <?php foreach ($items as $item) : ?>
             <li class="<?= $itemClasses ?>" <?= $itemAttributes ?>>
                 <a href="<?= $item->url() ?>" target="<?= $item->target()->toString() ?>" <?= $linkClasses ?> aria-label="<?= $item->platform()->toString() ?> Link">
-                    <?php snippet('social_media_icon', ['platform' => $item->platform()->toString(), 'classes' => $iconClasses, 'attributes' => $iconAttributes]) ?>
+                    <?php snippet('social_media_icon', ['platform' => $item->platform()->toString(), 'classes' => $iconClasses]) ?>
                 </a>
             </li>
         <?php endforeach ?>
