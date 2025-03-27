@@ -1,4 +1,7 @@
-label: Social Media
+label:
+  en: "Social media"
+  de: "Social Media"
+  fr: "Réseaux sociaux"
 icon: share
 sections:
   socialMediaSettings:

@@ -1,6 +1,7 @@
 label:
   en: "Social media links"
   de: "Social Media Links"
+  fr: "Liens des réseaux sociaux"
 type: structure
 fields:
   platform:
@@ -8,6 +9,7 @@ fields:
     label:
       en: Platform
       de: Plattform
+      fr: Plateforme
     options:
       About_Me: About Me
       Discord: Discord
@@ -41,12 +43,14 @@ fields:
     label:
       en: Link
       de: Link
+      fr: Lien
     type: url
     required: true
   target:
     label:
       en: Target
       de: Target
+      fr: Target
     type: toggles
     options:
       - value: self
