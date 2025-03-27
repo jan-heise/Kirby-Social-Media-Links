@@ -11,34 +11,8 @@ fields:
       de: Plattform
       fr: Plateforme
     options:
-      About_Me: About Me
-      Discord: Discord
-      Discourse: Discourse
-      Facebook_Gaming: Facebook Gaming
-      Facebook_Live: Facebook Live
-      Facebook: Facebook
-      GitHub: GitHub
-      GitLab: GitLab
-      Google_Maps: Google Maps
-      Google_Play: Google Play
-      Instagram: Instagram
-      LinkedIn: LinkedIn
-      Mastodon: Mastodon
-      Meta: Meta
-      Pinterest: Pinterest
-      Signal: Signal
-      Slack: Slack
-      Telegram: Telegram
-      TikTok: TikTok
-      Twitch: Twitch
-      Twitter: Twitter
-      WhatsApp: WhatsApp
-      X: X
-      Xing: Xing
-      YouTube_Gaming: YouTube Gaming
-      YouTube_Music: YouTube Music
-      YouTube_Shorts: YouTube Shorts
-      YouTube: YouTube
+      type: query
+      query: kirby.option('janheise.kirby-social-media-links.platforms')
   url:
     label:
       en: Link
