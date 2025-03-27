@@ -12,6 +12,7 @@ Kirby::plugin('janheise/kirby-social-media-links', [
     'options' => [
       'platforms' => [
         'About_Me' => 'About Me',
+        'Bluesky' => 'Bluesky',
         'Discord' => 'Discord',
         'Discourse' => 'Discourse',
         'Facebook_Gaming' => 'Facebook Gaming',
