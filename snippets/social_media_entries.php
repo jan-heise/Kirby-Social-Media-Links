@@ -1,12 +1,12 @@
 <?php
 
-$containerClasses = (isset($containerClasses)) ? $containerClasses : '';
-$containerId = (isset($containerId)) ? ' id="' . $containerId . '"' : '';
-$itemClasses = (isset($itemClasses)) ? $itemClasses : '';
-$linkClasses = (isset($linkClasses)) ? ' class="' . $linkClasses . '"' : '';
-$iconClasses = (isset($iconClasses)) ? $iconClasses : '';
-$listAttributes = (isset($listAttributes)) ? $listAttributes : '';
-$itemAttributes = (isset($itemAttributes)) ? $itemAttributes : '';
+$containerClasses = $containerClasses ?? '';
+$containerId = isset($containerId) ? ' id="' . $containerId . '"' : '';
+$itemClasses = $itemClasses ?? '';
+$linkClasses = isset($linkClasses) ? ' class="' . $linkClasses . '"' : '';
+$iconClasses = $iconClasses ?? '';
+$listAttributes = $listAttributes ?? '';
+$itemAttributes = $itemAttributes ?? '';
 
 $items = (isset($items)) ? $items : $site->socialMediaLinks()->toStructure();
 
